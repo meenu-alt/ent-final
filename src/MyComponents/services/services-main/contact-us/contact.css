@@ -1,0 +1,22 @@
+.col-lg-8.col-md-8.pq-form-box {
+    padding: 60px;
+}
+
+.col-lg-8.col-md-8.pq-form-box {
+    padding: 60px;
+    border-radius: 10px;
+}
+
+section.pq-contact-us.form-map {
+    padding-bottom: 0;
+}
+
+.map.pt-0 {
+    padding-bottom: 0;
+}
+
+.pq-contact-box {
+    width: 100%;
+    min-height: 359px;
+    border-radius: 15px;
+}

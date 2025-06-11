@@ -1,0 +1,132 @@
+.privacy-policy-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .privacy-policy-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+  }
+  
+  .effective-date {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  
+  .policy-section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .policy-section:last-child {
+    border-bottom: none;
+  }
+  
+.section-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2f3031e0;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 0px;
+}
+  
+  .section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 20px;
+    width: 5px;
+    background-color: #0F995F;
+    border-radius: 3px;
+  }
+  
+  .section-intro {
+    color: #555;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  
+  .section-text {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .policy-list {
+    padding-left: 25px;
+    margin-top: 10px;
+  }
+  
+  .policy-list li {
+    margin-bottom: 10px;
+    color: #555;
+    position: relative;
+    padding-left: 10px;
+  }
+  
+  .policy-list li::before {
+    content: '•';
+    color: #0F995F;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .policy-list strong {
+    color: #2c3e50;
+  }
+  
+  .contact-section {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  
+  .contact-infopri {
+    font-style: normal;
+    margin-top: 15px;
+  }
+  
+  .contact-infopri p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #555;
+  }
+  
+  .contact-infopri p strong {
+    color: #2c3e50;
+  }
+  
+
+  @media (max-width: 768px) {
+    .privacy-policy-container {
+      padding: 30px 20px;
+    }
+    
+    .privacy-policy-title {
+      font-size: 32px;
+    }
+    
+    .section-title {
+      font-size: 22px;
+    }
+  }

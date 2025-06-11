@@ -1,0 +1,45 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+.pq-applyform .form-select:hover{
+    box-shadow: none !important;
+
+}
+.pq-applyform .form-select{
+    box-shadow: none !important;
+
+}
+
+ul.pq-section-description li {
+    list-style: disc;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.left-right-section h6.main-heading.text-center {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 56px;
+    z-index: 9;
+    color: #2f2f2f;
+    padding: 0;
+    margin: 0 0 21px 0;
+    position: relative;
+    display: block;
+}
+
+ul.pq-section-list li {
+    list-style: disc;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+h2.pq-section-title.main-heading {
+    margin-bottom: 15px !important;
+    font-size: 35px !important;
+}

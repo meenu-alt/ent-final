@@ -1,0 +1,41 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+.pq-applyform .form-select:hover{
+    box-shadow: none !important;
+
+}
+.pq-applyform .form-select{
+    box-shadow: none !important;
+
+}
+
+h6.pq-section-title {
+    font-size: 18px !important;
+    line-height: 15px !important;
+}
+
+p {
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+
+ul.key-points li {
+    list-style: disc;
+    font-size: 17px;
+}
+
+ul.key-points li {
+    list-style: disc;
+    font-size: 17px;
+}
+
+h5.pq-section-subtitle.sub-subtitle {
+    font-weight: 600;
+    font-size: 30px;
+}

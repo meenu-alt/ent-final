@@ -1,0 +1,105 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+
+.pq-applyform .form-select:hover {
+    box-shadow: none !important;
+
+}
+
+.pq-applyform .form-select {
+    box-shadow: none !important;
+
+}
+
+h6.pq-section-title {
+    font-size: 18px !important;
+    line-height: 15px !important;
+}
+
+p {
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+
+ul.key-points li {
+    list-style: disc;
+    font-size: 17px;
+}
+
+ul.key-points li {
+    list-style: disc;
+    font-size: 17px;
+}
+
+h5.pq-section-subtitle.sub-subtitle {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+section.info-section.bg-success.text-white.text-center.py-3 {
+    padding: 2em 0 2em 0 !important;
+    background: #239857 !important;
+}
+
+section.info-section.bg-success.text-white.text-center.py-3 h2 {
+    color: white;
+    text-align: left;
+    margin-left: 16%;
+    font-size: 2em;
+}
+
+h3.specialist-title.text-success,
+h5.specialist-name,
+p.specialist-qualifications,
+h5.specialist-heading,
+h2.section-title.text-center,
+h6.section-subtitle.text-center,
+h2.section-title.main-title {
+    font-weight: 600;
+}
+
+h5.specialist-heading .fas {
+    color: #198754;
+}
+
+img.img-fluid.specialist-image {
+    border-style: solid;
+    border-width: 8px 8px 8px 8px;
+    border-color: #239857;
+    box-shadow: 8px 8px 0px 0px #83d5a882;
+    width: 75%;
+}
+
+section.septoplasty-section {
+    background: #F8F8F8;
+}
+
+ol.key-points li {
+    font-size: 18px;
+}
+
+.image-container .img-fluid {
+    width: 75%;
+}
+
+section.ent-surgery-section.py-5 p.text-center.mb-5 {
+    text-align: left !important;
+}
+
+h5.card-title {
+    font-weight: 600;
+}
+
+p.card-text {
+    font-size: 15px !important;
+}
+
+section.fess-section.beige-bg {
+    background: #F5F1ED;
+}

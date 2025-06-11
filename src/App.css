@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers&display=swap');
+
+body {
+  font-family: 'Teachers', sans-serif !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+section.banner-carousel {
+  padding-top: 0;
+}
+a {
+  text-decoration: none !important;
+}
+p{
+  font-size: 18px !important;
+
+}
+h5{
+  color: rgba(19, 19, 19, 0.74) !important;
+}
+
+
+.pq-breadcrumb-container.mt-2 {
+  margin: 0 !important;
+}
+
+.bg-cover.bdcrum {
+  padding: 22px 0 !important;
+  background: #f0fff1;
+}
+
+.pq-subscribe-bg .col-xl-6.col-md-7 a {
+  padding-left: 0 !important;
+}

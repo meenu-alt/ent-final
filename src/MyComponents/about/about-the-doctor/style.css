@@ -1,0 +1,248 @@
+.pq-section.pq-style-1.text-center {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pq-section-sub-title {
+    font-size: 18px;
+    color: #666;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .pq-section-title {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .pq-accordion-block {
+    width: 100%;
+  }
+  
+  .pq-accordion-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .pq-accordion-box.active {
+    border-color: #239857;
+  }
+  
+  .pq-ad-title {
+    padding: 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ad-title-text {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    flex: 1;
+  }
+  
+  .pq-accordion-details {
+    padding: 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .pq-accordion-details.open {
+    padding: 15px;
+    max-height: 500px; 
+  }
+  
+  .pq-detail-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+
+  .fa {
+    font-size: 14px;
+    color: #239857;
+    transition: transform 0.3s ease;
+  }
+  
+  .fa-chevron-down {
+    transform: rotate(0deg);
+  }
+  
+  .fa-chevron-up {
+    transform: rotate(180deg);
+  }
+    section {
+      position: relative;
+      padding: 15px 0px !important;
+  }
+
+.pq-counter.pq-style-2 .pq-counter-info h5 {
+    font-weight: 900;
+}
+.pq-bg-primary-dark {
+    background-color: #ffffff !important;
+}
+
+.pq-counter.pq-style-2 .pq-counter-info {
+    position: relative;
+    padding-top: 0;
+}
+
+section.pq-counter-60.pq-bg-primary-dark.pq-py-2 {
+    padding: 26px 0;
+    background: #f7fdfa !important;
+}
+
+section.pq-awards.pq-py-2 .align-items-center {
+    align-items: unset !important;
+    justify-content: center;
+}
+
+section.single-team {
+    background: #f7fdfa;
+}
+
+section.achievements-section {
+    background: #f7fdfa;}
+
+
+section.pq-awards.pq-py-2 p {
+    font-size: 18px !important;
+}
+
+
+
+.contact-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    min-height: 180px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #50c878;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #50c878;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-description {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-description a {
+    color: #239857;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-description a:hover {
+    text-decoration: underline;
+}
+
+
+.map-box {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.achievements-section {
+    padding: 50px 0;
+}
+
+.achievements-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #239857;
+    margin-bottom: 20px;
+}
+
+.achievements-list {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.achievements-swiper {
+    width: 100%;
+}
+
+.achievements-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .achievements-title {
+        font-size: 1.5rem;
+    }
+
+    .achievements-list li {
+        font-size: 0.9rem;
+    }
+}

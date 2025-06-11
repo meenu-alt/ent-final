@@ -1,0 +1,498 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+.pq-applyform .form-select:hover{
+    box-shadow: none !important;
+
+}
+.pq-applyform .form-select{
+    box-shadow: none !important;
+
+}
+.why-choose ul {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+.why-choose ul h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+.why-choose ul  {
+    list-style-type: circle;
+    padding: 0;
+}
+.why-choose ul   li {
+    background: #ebf9ed;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #239857;
+}
+.why-choose ul li:hover {
+    background: #bdc3c7;
+    border-left-color: #27ca44;}
+ 
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  .medfirst-container {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .expert-advice {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .why-choose, .technology-facilities {
+    padding: 20px;
+  }
+  
+  .why-choose h2, .technology-facilities h2 {
+    font-size: 1.8rem;
+    color: #222;
+  }
+  
+  .why-choose p, .technology-facilities p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .why-choose ul, .technology-facilities ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .why-choose li, .technology-facilities li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  .nose-surgery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .surgery-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .surgery-table th,
+  .surgery-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .surgery-table th {
+    background-color: #239857;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .surgery-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .surgery-table tr:hover {
+    background-color: #e9ecef;
+  }
+  .factors-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .factors-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .factors-description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .factors-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .factors-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .factors-list li strong {
+    color: #000;
+  }
+  .nose-surgery-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nose-surgery-subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .nose-surgery-description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .nose-surgery-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .nose-surgery-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .nose-surgery-list li strong {
+    color: #000;
+  }
+  
+  .nose-surgery-footer {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+  }
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.key-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.key-points li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section {
+  background-color: #28a745;
+  padding: 60px 0;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background-color: #f8f9fa;
+  color: #218838;
+}
+
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.key-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.key-points li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+
+.cta-section {
+  background-color: #28a745;
+  padding: 60px 0;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background-color: #f8f9fa;
+  color: #218838;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.key-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.key-points li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+
+.cta-section {
+  background-color: #28a745;
+  padding: 60px 0;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background-color: #f8f9fa;
+  color: #218838;
+}
+
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}

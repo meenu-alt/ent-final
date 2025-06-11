@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "description": "Welcome to our homepage.",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "title": "About The Doctor",
+    "description": "Learn more about our specialist.",
+    "link": "/about-the-doctor"
+  },
+  {
+    "id": 3,
+    "title": "About Clinic",
+    "description": "Discover why MedFirst is the best choice.",
+    "link": "/about-clinic"
+  },
+  {
+    "id": 4,
+    "title": "Videos",
+    "description": "Watch informative videos on ENT health.",
+    "link": "/videos"
+  },
+  {
+    "id": 5,
+    "title": "Contact Us",
+    "description": "Get in touch with us for appointments and queries.",
+    "link": "/contact-us"
+  },
+  {
+    "id": 6,
+    "title": "ENT Surgery",
+    "description": "Comprehensive ENT surgical services.",
+    "link": "/ent-surgery"
+  },
+  {
+    "id": 7,
+    "title": "Vertigo Clinic",
+    "description": "Specialized clinic for vertigo treatment.",
+    "link": "/Vertigo-Clinic"
+  },
+  {
+    "id": 8,
+    "title": "Audiology",
+    "description": "Services related to hearing and balance.",
+    "link": "/audiology"
+  },
+  {
+    "id": 9,
+    "title": "Deafness Management",
+    "description": "Comprehensive management for hearing loss.",
+    "link": "/deafness-management"
+  },
+  {
+    "id": 10,
+    "title": "Myringoplasty",
+    "description": "Surgical repair of the eardrum.",
+    "link": "/myringoplasty"
+  },
+  {
+    "id": 11,
+    "title": "Otitis Externa",
+    "description": "Treatment for outer ear infections.",
+    "link": "/otitis-externa"
+  },
+  {
+    "id": 12,
+    "title": "Hearing Loss",
+    "description": "Diagnosis and treatment for hearing loss.",
+    "link": "/hearing-loss"
+  },
+  {
+    "id": 13,
+    "title": "Stapes Surgery",
+    "description": "Surgical treatment for stapes fixation.",
+    "link": "/stapes-surgery"
+  },
+  {
+    "id": 14,
+    "title": "Myringotomy With Grommet",
+    "description": "Procedure to treat recurrent ear infections.",
+    "link": "/myringotomy-with-grommet"
+  },
+  {
+    "id": 15,
+    "title": "Myringotomy",
+    "description": "Surgical procedure for middle ear fluid buildup.",
+    "link": "/myringotomy"
+  },
+  {
+    "id": 16,
+    "title": "Hearing Aids",
+    "description": "Advanced hearing aid solutions.",
+    "link": "/hearing-aids"
+  },
+  {
+    "id": 17,
+    "title": "Endoscopy",
+    "description": "Diagnostic and therapeutic endoscopy procedures.",
+    "link": "/endoscopy"
+  },
+  {
+    "id": 18,
+    "title": "Functional Endoscopic Sinus Surgery",
+    "description": "Surgical treatment for sinus issues.",
+    "link": "/functional-endoscopic-sinus-surgery"
+  },
+  {
+    "id": 19,
+    "title": "FESS",
+    "description": "Surgeries for sinus diseases, improving drainage and treating nasal polyps.",
+    "link": "/fess"
+  },
+  {
+    "id": 20,
+    "title": "Septoplasty",
+    "description": "Surgical correction of a deviated septum.",
+    "link": "/septoplasty"
+  },
+  {
+    "id": 21,
+    "title": "Nasal Polyp Removal",
+    "description": "Surgical removal of nasal polyps.",
+    "link": "/nasal-polyp-removal"
+  },
+  {
+    "id": 22,
+    "title": "Nasal Polypectomy",
+    "description": "Surgical removal of obstructive nasal polyps.",
+    "link": "/nasal-polypectomy"
+  },
+  {
+    "id": 23,
+    "title": "Turbinoplasty",
+    "description": "Surgical reduction of nasal turbinates.",
+    "link": "/turbinoplasty"
+  },
+  {
+    "id": 24,
+    "title": "Turbinectomy",
+    "description": "Surgical removal of nasal turbinates.",
+    "link": "/turbinectomy"
+  },
+  {
+    "id": 25,
+    "title": "Repair of CSF Rhinorrhoea",
+    "description": "Surgical repair of cerebrospinal fluid leaks.",
+    "link": "/repair-of-csf-rhinorrhoea"
+  },
+  {
+    "id": 26,
+    "title": "Epistaxis",
+    "description": "Treatment for nosebleeds.",
+    "link": "/epistaxis"
+  },
+  {
+    "id": 27,
+    "title": "Palatal Injection for Snoring",
+    "description": "Non-surgical treatment for snoring.",
+    "link": "/palatal-injection-for-snoring"
+  },
+  {
+    "id": 28,
+    "title": "Speech Therapy",
+    "description": "Therapy for speech and language disorders.",
+    "link": "/speech-therapy"
+  },
+  {
+    "id": 29,
+    "title": "Tonsils",
+    "description": "Treatment for tonsil-related issues.",
+    "link": "/tonsils"
+  },
+  {
+    "id": 30,
+    "title": "Vocal Cord Surgery",
+    "description": "Surgical treatment for vocal cord issues.",
+    "link": "/vocal-cord-surgery"
+  },
+  {
+    "id": 31,
+    "title": "Tonsillectomy",
+    "description": "Surgical removal of tonsils.",
+    "link": "/tonsillectomy"
+  },
+  {
+    "id": 32,
+    "title": "Adenoid Surgery with Tube",
+    "description": "Surgical treatment for adenoid issues with tube insertion.",
+    "link": "/adenoid-surgery-with-tube-insertion"
+  },
+  {
+    "id": 33,
+    "title": "Mouth Ulcers",
+    "description": "Treatment for mouth ulcers.",
+    "link": "/mouth-ulcers"
+  },
+  {
+    "id": 34,
+    "title": "Facial Aesthetics",
+    "description": "Cosmetic treatments for facial enhancement.",
+    "link": "/facial-aesthetics"
+  },
+  {
+    "id": 35,
+    "title": "Hair Restoration",
+    "description": "Surgical and non-surgical hair restoration.",
+    "link": "/hair-restoration"
+  },
+  {
+    "id": 36,
+    "title": "Laryngoscopy",
+    "description": "Diagnostic procedure for the larynx.",
+    "link": "/laryngoscopy"
+  },
+  {
+    "id": 37,
+    "title": "Microlaryngoscopy",
+    "description": "Microscopic examination of the larynx.",
+    "link": "/microlaryngoscopy"
+  },
+  {
+    "id": 38,
+    "title": "Book an Appointment",
+    "description": "Schedule an appointment with our experts.",
+    "link": "/book-an-appointment"
+  },
+  {
+    "id": 39,
+    "title": "Adenoidectomy",
+    "description": "Removing adenoids to treat infections and breathing issues.",
+    "link": "/adenoid-surgery"
+  },
+  {
+    "id": 40,
+    "title": "Snoring Sleep Apnea Surgery",
+    "description": "Surgery for sleep-related breathing disorders.",
+    "link": "/snoring-sleep-apnea-surgery"
+  },
+  {
+    "id": 41,
+    "title": "Mastoidectomy",
+    "description": "Removal of infected mastoid bone.",
+    "link": "/mastoidectomy"
+  },
+  {
+    "id": 42,
+    "title": "MLS",
+    "description": "Microlaryngeal surgery for deep throat issues.",
+    "link": "/microlaryngeal-surgery-mls"
+  },
+  {
+    "id": 43,
+    "title": "Removal of Neck Swelling",
+    "description": "Surgical removal of neck swellings.",
+    "link": "/neck-swelling-surgery"
+  },
+  {
+    "id": 44,
+    "title": "Insurance and TPA",
+    "description": "Information on our insurance partners and TPA services.",
+    "link": "/insurance-partners-and-tpa"
+  },
+  {
+    "id": 45,
+    "title": "Tinnitus Management",
+    "description": "Audiological management for tinnitus care.",
+    "link": "/tinnitus-care-and-audiological-management"
+  },
+  {
+    "id": 46,
+    "title": "Sensorineural Hearing Loss",
+    "description": "Treatment for sensorineural hearing loss.",
+    "link": "/sensorineural-hearing-loss"
+  },
+  {
+    "id": 47,
+    "title": "Microlaryngeal Surgery",
+    "description": "Advanced microlaryngeal surgery techniques.",
+    "link": "/microlaryngeal-surgery"
+  },
+  {
+    "id": 48,
+    "title": "ENT Doctor Delhi",
+    "description": "Expert ENT consultation in Delhi.",
+    "link": "/ent-doctor-delhi"
+  },
+  {
+    "id": 49,
+    "title": "Ear Clinic Delhi",
+    "description": "Specialized ear clinic services in Delhi.",
+    "link": "/ear-clinic-delhi"
+  },
+  {
+    "id": 50,
+    "title": "Nose Surgery Cost Delhi",
+    "description": "Get information on nose surgery costs in Delhi.",
+    "link": "/nose-surgery-cost-delhi"
+  },
+  {
+    "id": 51,
+    "title": "Ear Doctor Delhi",
+    "description": "Consult with a top ear doctor in Delhi.",
+    "link": "/ear-doctor-delhi"
+  },
+  {
+    "id": 52,
+    "title": "Intratympanic Injection",
+    "description": "Intratympanic steroid injection procedure.",
+    "link": "/intratympanic-steroid-injection"
+  },
+  {
+    "id": 53,
+    "title": "Throat Doctor Delhi",
+    "description": "Consult with a top throat doctor in Delhi.",
+    "link": "/throat-doctor-delhi"
+  },
+  {
+    "id": 54,
+    "title": "Pediatric ENT Delhi",
+    "description": "Specialized ENT care for children in Delhi.",
+    "link": "/pediatric-ent-delhi"
+  },
+  {
+    "id": 55,
+    "title": "ENT FAQ",
+    "description": "Frequently asked questions about ENT services.",
+    "link": "/ent-faq"
+  },
+  {
+    "id": 56,
+    "title": "Thank You",
+    "description": "Thank you page after form submission.",
+    "link": "/thank-you"
+  },
+  {
+    "id": 57,
+    "title": "Our Services",
+    "description": "Explore our range of healthcare services.",
+    "link": "/our-services"
+  },
+  {
+    "id": 58,
+    "title": "Blog",
+    "description": "Read our latest articles and updates.",
+    "link": "/blogs"
+  },
+  {
+    "id": 59,
+    "title": "Post",
+    "description": "Detailed post or article page.",
+    "link": "/post"
+  },
+  {
+    "id": 60,
+    "title": "Vertigo Treatment",
+    "description": "Specialized clinic for vertigo treatment.",
+    "link": "/vertigo-treatment"
+  }
+]

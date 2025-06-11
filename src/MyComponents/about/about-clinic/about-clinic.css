@@ -1,0 +1,31 @@
+p.pq-section-heighlight {
+    font-size: 18px !important;
+}
+
+.about-clinic p.pq-section-description {
+    font-size: 18px !important;
+}
+
+
+
+.best-services img.service-icon {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.best-services .service-item {
+    display: flex;
+    gap: 12px;
+}
+
+
+.best-services p.pq-section-description {
+    font-size: 18px !important;
+}
+
+.best-services h6.pq-section-heighlight {
+    font-weight: 600;
+    font-size: 20px;
+}

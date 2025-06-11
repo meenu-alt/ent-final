@@ -1,0 +1,16 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+.pq-applyform .form-select:hover{
+    box-shadow: none !important;
+
+}
+.pq-applyform .form-select{
+    box-shadow: none !important;
+
+}

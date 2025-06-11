@@ -1,0 +1,183 @@
+.services-container {
+  font-family: "Arial", sans-serif;
+  padding: 25px;
+  max-width: 1200px;
+  margin: auto;
+  background: #ffffff;
+}
+
+.what-we-do {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 40px !important;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do .text-content {
+  width: 50%;
+}
+
+.what-we-do h2 {
+  color: #0F995F;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.what-we-do h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.what-we-do p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.what-we-do ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.what-we-do ul li {
+  margin-bottom: 10px;
+}
+
+.what-we-do .image-content img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.our-services {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-services h2 {
+  color: #0F995F;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.our-services p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+  color: #0F995F;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.our-specialist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eef3ff;
+  padding: 40px !important;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.our-specialist .doctor-info {
+  width: 50%;
+}
+
+.our-specialist h2 {
+  color: #0F995F;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.our-specialist h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.our-specialist p {
+  color: #555;
+  line-height: 1.8;
+}
+
+.our-specialist .doctor-image img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 900px) {
+  .what-we-do {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .what-we-do .text-content {
+    width: 100%;
+  }
+
+  .what-we-do .image-content img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-specialist {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .our-specialist .doctor-info {
+    width: 100%;
+  }
+
+  .our-specialist .doctor-image img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

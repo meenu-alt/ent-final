@@ -1,0 +1,189 @@
+.thank-you-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4f0fb 100%);
+  padding: 20px;
+}
+
+.thank-you-card {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #0F995F;
+  opacity: 0.7;
+  animation: confetti-fall 5s linear infinite;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.checkmark {
+  margin: 0 auto 25px;
+  width: 80px;
+  height: 80px;
+}
+
+.checkmark-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.checkmark-circle {
+  stroke: #0F995F;
+  stroke-width: 2;
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-linecap: round;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+  stroke: #0F995F;
+  stroke-width: 2;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.thank-you-title {
+  color: #0F995F;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.thank-you-message {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #0F995F;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #0F995F;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(15, 153, 95, 0.3);
+}
+
+.home-button:hover {
+  background-color: #0d854f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(15, 153, 95, 0.4);
+}
+
+@media (max-width: 768px) {
+  .thank-you-card {
+    padding: 30px 20px;
+  }
+  
+  .thank-you-title {
+    font-size: 1.5rem;
+  }
+  
+  .thank-you-message {
+    font-size: 1rem;
+  }
+  
+  .contact-info {
+    font-size: 0.9rem;
+  }
+  
+  .home-button {
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .thank-you-card {
+    padding: 25px 15px;
+  }
+  
+  .checkmark {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .thank-you-title {
+    font-size: 1.3rem;
+  }
+  
+  .thank-you-message {
+    font-size: 0.9rem;
+  }
+  
+  .contact-info {
+    font-size: 0.8rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

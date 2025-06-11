@@ -1,0 +1,119 @@
+.faq {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .pq-section {
+    margin-bottom: 40px;
+  }
+  
+  .pq-section-sub-title {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .pq-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .faq-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 10px;
+  }
+  
+  .pq-accordion-block {
+    margin-top: 20px;
+  }
+  
+  .pq-accordion-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .pq-ad-title {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ad-title-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .pq-accordion-details {
+    padding: 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .pq-accordion-details.open {
+    max-height: 200px; 
+    padding: 15px;
+  }
+  
+  .pq-detail-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .contact-info strong {
+    color: #28a745;
+  }
+  
+
+  @media (max-width: 768px) {
+    .pq-section-title {
+      font-size: 2rem;
+    }
+  
+    .faq-heading {
+      font-size: 1.5rem;
+    }
+  
+    .ad-title-text {
+      font-size: 1rem;
+    }
+  
+    .pq-detail-text {
+      font-size: 0.9rem;
+    }
+  }

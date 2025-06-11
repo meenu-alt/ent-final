@@ -1,0 +1,1273 @@
+import React, { useState, useEffect } from "react";
+import logo from "../assets/images/logo-ent.png";
+import "../App.css";
+import { Link } from "react-router-dom";
+
+export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isSearchPopupOpen, setIsSearchPopupOpen] = useState(false);
+  const [openSubMenu, setOpenSubMenu] = useState({});
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const openSearchPopup = () => {
+    setIsSearchPopupOpen(true);
+  };
+
+  const closeSearchPopup = () => {
+    setIsSearchPopupOpen(false);
+  };
+
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
+  const toggleSubMenu = (menu, isSubSubMenu = false) => {
+    setOpenSubMenu((prev) => ({
+      ...prev,
+      [menu]: !prev[menu],
+      ...(isSubSubMenu ? {} : {}), // Close other menus when opening a new one
+    }));
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+      if (window.innerWidth > 768) {
+        setMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Mobile Menu Component
+  const MobileMenu = () => (
+    <div className={`mobile-menu-overlay ${menuOpen ? "active" : ""}`}>
+      <div className="mobile-menu-container">
+        <button className="mobile-menu-close" onClick={toggleMenu}>
+          <i className="fas fa-times"></i>
+        </button>
+
+        <ul className="mobile-menu">
+          <li>
+            <Link to="/" onClick={handleLinkClick}>
+              Home
+            </Link>
+          </li>
+
+          <li className="has-submenu">
+            <div
+              className="submenu-header"
+              onClick={() => toggleSubMenu("services")}
+            >
+             <Link 
+      to="/our-services" 
+      onClick={(e) => {
+        // Close mobile navbar when link is clicked
+        handleLinkClick();
+        // Only prevent default if clicking the chevron
+        if (e.target.classList.contains('fa-chevron-down')) {
+          e.preventDefault();
+        }
+      }}
+    >
+      Our Services
+    </Link>
+              <i
+                className={`fas fa-chevron-down ${
+                  openSubMenu.services ? "rotate" : ""
+                }`}
+              ></i>
+            </div>
+            {openSubMenu.services && (
+              <ul className="submenu">
+                {/* Ear Services */}
+                <li className="has-submenu">
+  <div className="submenu-header">
+  <Link 
+      to="/ear-clinic-delhi/" 
+      onClick={(e) => {
+        // Close mobile navbar when link is clicked
+        handleLinkClick();
+        // Only prevent default if clicking the chevron
+        if (e.target.classList.contains('fa-chevron-down')) {
+          e.preventDefault();
+        }
+      }}
+    >
+      Ear
+    </Link>
+    <i
+      className={`fas fa-chevron-down ${openSubMenu.ear ? "rotate" : ""}`}
+      onClick={(e) => {
+        e.stopPropagation();
+        toggleSubMenu("ear", true);
+      }}
+      style={{ cursor: "pointer", marginLeft: "8px" }}
+    ></i>
+  </div>
+  {openSubMenu.ear && (
+    <ul className="sub-submenu">
+      <li>
+        <Link to="./Vertigo-Clinic/" onClick={handleLinkClick}>
+          Vertigo Clinic
+        </Link>
+      </li>
+      <li>
+        <Link to="./audiology/" onClick={handleLinkClick}>
+          Audiology
+        </Link>
+      </li>
+      <li>
+        <Link to="./deafness-management/" onClick={handleLinkClick}>
+          Deafness Management
+        </Link>
+      </li>
+      <li>
+        <Link to="./myringoplasty/" onClick={handleLinkClick}>
+          Myringoplasty
+        </Link>
+      </li>
+      <li>
+        <Link to="./otitis-externa/" onClick={handleLinkClick}>
+          Otitis Externa
+        </Link>
+      </li>
+      <li>
+        <Link to="./hearing-loss/" onClick={handleLinkClick}>
+          Hearing Loss
+        </Link>
+      </li>
+      <li>
+        <Link to="./stapes-surgery/" onClick={handleLinkClick}>
+          Stapes Surgery
+        </Link>
+      </li>
+      <li>
+        <Link to="./myringotomy-with-grommet/" onClick={handleLinkClick}>
+          Myringotomy With Grommet
+        </Link>
+      </li>
+      <li>
+        <Link to="./hearing-aids" onClick={handleLinkClick}>
+          Hearing Aids
+        </Link>
+      </li>
+      <li>
+        <Link to="./tympanoplasty" onClick={handleLinkClick}>
+        Tympanoplasty
+        </Link>
+      </li>
+    </ul>
+  )}
+</li>
+
+                {/* Nose Services */}
+                <li className="has-submenu">
+                  <div
+                    className="submenu-header"
+                    onClick={() => toggleSubMenu("nose", true)}
+                  >
+                    <Link
+                      to="/nose-surgery-cost-delhi"
+                     onClick={(e) => {
+        // Close mobile navbar when link is clicked
+        handleLinkClick();
+        // Only prevent default if clicking the chevron
+        if (e.target.classList.contains('fa-chevron-down')) {
+          e.preventDefault();
+        }
+      }}
+                    >
+                      Nose
+                    </Link>
+                    <i
+                      className={`fas fa-chevron-down ${
+                        openSubMenu.nose ? "rotate" : ""
+                      }`}
+                    ></i>
+                  </div>
+                  {openSubMenu.nose && (
+                    <ul className="sub-submenu">
+                      <li>
+                        <Link to="./endoscopy/" onClick={handleLinkClick}>
+                          Endoscopy
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./functional-endoscopic-sinus-surgery/"
+                          onClick={handleLinkClick}
+                        >
+                          Functional Endoscopic Sinus Surgery
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./septoplasty/" onClick={handleLinkClick}>
+                          Septoplasty
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./nasal-polyp-removal/"
+                          onClick={handleLinkClick}
+                        >
+                          Nasal Polyp Removal
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./turbinoplasty/" onClick={handleLinkClick}>
+                          Turbinoplasty
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./repair-of-csf-rhinorrhoea/"
+                          onClick={handleLinkClick}
+                        >
+                          Repair of CSF Rhinorrhoea
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./epistaxis/" onClick={handleLinkClick}>
+                          Epistaxis
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./palatal-injection-for-snoring/"
+                          onClick={handleLinkClick}
+                        >
+                          Palatal Injection for Snoring
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./endoscopic-dcr/"
+                          onClick={handleLinkClick}
+                        >
+                          Endoscopic DCR
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Throat Services */}
+                <li className="has-submenu">
+                  <div
+                    className="submenu-header"
+                    onClick={() => toggleSubMenu("throat", true)}
+                  >
+                    <Link
+                      to="/throat-doctor-delhi/"
+                     
+      onClick={(e) => {
+        // Close mobile navbar when link is clicked
+        handleLinkClick();
+        // Only prevent default if clicking the chevron
+        if (e.target.classList.contains('fa-chevron-down')) {
+          e.preventDefault();
+        }
+      }}
+                    >
+                      Throat
+                    </Link>
+                    <i
+                      className={`fas fa-chevron-down ${
+                        openSubMenu.throat ? "rotate" : ""
+                      }`}
+                    ></i>
+                  </div>
+                  {openSubMenu.throat && (
+                    <ul className="sub-submenu">
+                      <li>
+                        <Link to="./speech-therapy/" onClick={handleLinkClick}>
+                          Speech Therapy
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./tonsils/" onClick={handleLinkClick}>
+                          Tonsils
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./vocal-cord-surgery/"
+                          onClick={handleLinkClick}
+                        >
+                          Vocal Cord Surgery
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./tonsillectomy/" onClick={handleLinkClick}>
+                          Tonsillectomy
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./adenoid-surgery-with-tube-insertion/"
+                          onClick={handleLinkClick}
+                        >
+                          Adenoid Surgery with Tube
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./mouth-ulcers/" onClick={handleLinkClick}>
+                          Mouth Ulcers
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Endoscopy Services */}
+                <li className="has-submenu">
+                  <div
+                    className="submenu-header"
+                    onClick={() => toggleSubMenu("endoscopy", true)}
+                  >
+                    <Link to="/endoscopy/"  
+      onClick={(e) => {
+        // Close mobile navbar when link is clicked
+        handleLinkClick();
+        // Only prevent default if clicking the chevron
+        if (e.target.classList.contains('fa-chevron-down')) {
+          e.preventDefault();
+        }
+      }}>
+                      Endoscopy
+                    </Link>
+                    <i
+                      className={`fas fa-chevron-down ${
+                        openSubMenu.endoscopy ? "rotate" : ""
+                      }`}
+                    ></i>
+                  </div>
+                  {openSubMenu.endoscopy && (
+                    <ul className="sub-submenu">
+                      <li>
+                        <Link to="./laryngoscopy/" onClick={handleLinkClick}>
+                          Laryngoscopy
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./microlaryngoscopy/"
+                          onClick={handleLinkClick}
+                        >
+                          Microlaryngoscopy
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Aesthetics Services */}
+                <li className="has-submenu">
+                  <div
+                    className="submenu-header"
+                    onClick={() => toggleSubMenu("aesthetics", true)}
+                  >
+                    <span>Aesthetics</span>
+                    <i
+                      className={`fas fa-chevron-down ${
+                        openSubMenu.aesthetics ? "rotate" : ""
+                      }`}
+                    ></i>
+                  </div>
+                  {openSubMenu.aesthetics && (
+                    <ul className="sub-submenu">
+                      <li>
+                        <Link
+                          to="./hair-restoration/"
+                          onClick={handleLinkClick}
+                        >
+                          Hair Restoration
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="./facial-aesthetics/"
+                          onClick={handleLinkClick}
+                        >
+                          Facial Aesthetics
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                <li>
+                  <Link to="./ent-surgery/" onClick={handleLinkClick}>
+                    ENT Surgery
+                  </Link>
+                </li>
+              </ul>
+            )}
+          </li>
+
+          <li className="has-submenu">
+            <div
+              className="submenu-header"
+              onClick={() => toggleSubMenu("about")}
+            >
+              <span>About</span>
+              <i
+                className={`fas fa-chevron-down ${
+                  openSubMenu.about ? "rotate" : ""
+                }`}
+              ></i>
+            </div>
+            {openSubMenu.about && (
+              <ul className="submenu">
+                <li>
+                  <Link to="./about-the-doctor/" onClick={handleLinkClick}>
+                    About The Doctor
+                  </Link>
+                </li>
+                <li>
+                  <Link to="./about-clinic/" onClick={handleLinkClick}>
+                    Why Choose MedFirst
+                  </Link>
+                </li>
+              </ul>
+            )}
+          </li>
+
+          <li>
+            <Link to="./blogs/" onClick={handleLinkClick}>
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link to="./videos/" onClick={handleLinkClick}>
+              Videos
+            </Link>
+          </li>
+          <li>
+            <Link to="./contact-us/" onClick={handleLinkClick}>
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+        
+
+        <div className="mobile-menu-footer">
+
+          <Link
+            className="mobile-appointment-btn"
+            to="./book-an-appointment"
+            onClick={handleLinkClick}
+          >
+            Book Appointment
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <header id="pq-header" className="pq-header-style-3 pq-has-sticky">
+      {/* Top Header */}
+      <div className="pq-top-header">
+        <div className="container">
+          <div className="row flex-row-reverse">
+            <div className="col-md-4 text-right">
+              <div className="pq-header-social text-right">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/medfirstentcentre">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://g.co/kgs/KjhXPQP">
+                      <i className="fab fa-google"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/drbhardwajent/">
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/entdelhi">
+                      <i className="fab fa-x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@ENTDelhi">
+                      <i className="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-8">
+              <div className="pq-header-contact">
+                <ul>
+                  <li>
+                    <Link to="tel:09871150032">
+                      <i className="fas fa-phone"></i>
+                      <span> +91 9871150032</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="tel:09205585295">
+                      <i className="fas fa-phone"></i>
+                      <span> +91 9205585295</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="mailto:entdelhi@gmail.com">
+                      <i className="fas fa-envelope"></i>
+                      <span>entdelhi@gmail.com</span>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Header */}
+      <div className="pq-bottom-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <nav className="navbar navbar-expand-lg navbar-light">
+                <Link className="navbar-brand" to="/">
+                  <img className="img-fluid logo" src={logo} alt="medicate" />
+                </Link>
+                <div className="pq-menu-search-block" style={{bottom: "118px"}}>
+                    <button
+                      id="pq-search-btn"
+                      onClick={openSearchPopup}
+                      style={{ border: "none", background: "none", margin: "0px" }}
+                    >
+                      <i className="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                <button
+                  className="navbar-toggler"
+                  type="button"
+                  onClick={toggleMenu}
+                  aria-expanded={menuOpen}
+                  aria-label="Toggle navigation"
+                >
+                  <i className="fas fa-bars"></i>
+                </button>
+
+                {/* Desktop Navigation */}
+                {!isMobile && (
+                  <div
+                    className={`collapse navbar-collapse ${
+                      menuOpen ? "show" : ""
+                    }`}
+                    style={{justifyContent: 'center'}}
+                  >
+                    <ul id="pq-main-menu" className="navbar-nav ml-auto">
+                      <li className="menu-item">
+                        <Link to="/" onClick={handleLinkClick}>
+                          Home
+                        </Link>
+                      </li>
+
+                      <li className="menu-item menu-item-has-children">
+                        <Link to="./our-services/" onClick={handleLinkClick}>
+                          Our Services
+                        </Link>
+                        <i
+                          className="fa fa-chevron-down pq-submenu-icon"
+                          onClick={() => toggleSubMenu("services")}
+                        ></i>
+                        {openSubMenu.services && (
+                          <ul className="sub-menu">
+                            <li className="menu-item menu-item-has-children">
+                              <Link
+                                to="/ear-clinic-delhi/"
+                                onClick={handleLinkClick}
+                              >
+                                Ear
+                              </Link>
+                              <i
+                                className="fa fa-chevron-down pq-submenu-icon"
+                                onClick={() => toggleSubMenu("ear")}
+                              ></i>
+                              {openSubMenu.ear && (
+                                <ul className="sub-menu sub-sub-menu">
+                                  <li>
+                                    <Link
+                                      to="./Vertigo-Clinic/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Vertigo Clinic
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./audiology/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Audiology
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./deafness-management/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Deafness Management
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./myringoplasty/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Myringoplasty
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./otitis-externa/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Otitis Externa
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./hearing-loss/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Hearing Loss
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./stapes-surgery/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Stapes Surgery
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./myringotomy-with-grommet/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Myringotomy With Grommet
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./hearing-aids"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Hearing Aids
+                                    </Link>
+                                  </li>
+                                  <li>
+                                  <Link
+                                      to="./tympanoplasty"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Tympanoplasty
+                                    </Link>
+                                     </li>
+                                </ul>
+                              )}
+                            </li>
+                            <li className="menu-item menu-item-has-children">
+                              <Link
+                                to="/nose-surgery-cost-delhi"
+                                onClick={handleLinkClick}
+                              >
+                                Nose
+                              </Link>
+                              <i
+                                className="fa fa-chevron-down pq-submenu-icon"
+                                onClick={() => toggleSubMenu("nose")}
+                              ></i>
+                              {openSubMenu.nose && (
+                                <ul className="sub-menu sub-sub-menu">
+                                  <li>
+                                    <Link
+                                      to="./endoscopy/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Endoscopy
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./functional-endoscopic-sinus-surgery/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Functional Endoscopic Sinus Surgery
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./septoplasty/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Septoplasty
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./nasal-polyp-removal/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Nasal Polyp Removal
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./turbinoplasty/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Turbinoplasty
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./repair-of-csf-rhinorrhoea/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Repair of CSF Rhinorrhoea
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./epistaxis/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Epistaxis
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./palatal-injection-for-snoring/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Palatal Injection for Snoring
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./endoscopic-dcr/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Endoscopic DCR
+                                    </Link>
+                                  </li>
+                                  
+                                </ul>
+                              )}
+                            </li>
+                            <li className="menu-item menu-item-has-children">
+                              <Link
+                                to="/throat-doctor-delhi/"
+                                onClick={handleLinkClick}
+                              >
+                                Throat
+                              </Link>
+                              <i
+                                className="fa fa-chevron-down pq-submenu-icon"
+                                onClick={() => toggleSubMenu("throat")}
+                              ></i>
+                              {openSubMenu.throat && (
+                                <ul className="sub-menu sub-sub-menu">
+                                  <li>
+                                    <Link
+                                      to="./speech-therapy/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Speech Therapy
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./tonsils/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Tonsils
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./vocal-cord-surgery/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Vocal Cord Surgery
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./tonsillectomy/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Tonsillectomy
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./adenoid-surgery-with-tube-insertion/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Adenoid Surgery with Tube
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./mouth-ulcers/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Mouth Ulcers
+                                    </Link>
+                                  </li>
+                                </ul>
+                              )}
+                            </li>
+                            <li className="menu-item menu-item-has-children">
+                              <Link to="/endoscopy/" onClick={handleLinkClick}>
+                                Endoscopy
+                              </Link>
+                              <i
+                                className="fa fa-chevron-down pq-submenu-icon"
+                                onClick={() => toggleSubMenu("endoscopy")}
+                              ></i>
+                              {openSubMenu.endoscopy && (
+                                <ul className="sub-menu sub-sub-menu">
+                                  <li>
+                                    <Link
+                                      to="./laryngoscopy/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Laryngoscopy
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./microlaryngoscopy/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Microlaryngoscopy
+                                    </Link>
+                                  </li>
+                                </ul>
+                              )}
+                            </li>
+                            <li className="menu-item menu-item-has-children">
+                              <Link to="#" onClick={handleLinkClick}>
+                                Aesthetics
+                              </Link>
+                              <i
+                                className="fa fa-chevron-down pq-submenu-icon"
+                                onClick={() => toggleSubMenu("aesthetics")}
+                              ></i>
+                              {openSubMenu.aesthetics && (
+                                <ul className="sub-menu sub-sub-menu">
+                                  <li>
+                                    <Link
+                                      to="./hair-restoration/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Hair Restoration
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to="./facial-aesthetics/"
+                                      onClick={handleLinkClick}
+                                    >
+                                      Facial Aesthetics
+                                    </Link>
+                                  </li>
+                                </ul>
+                              )}
+                            </li>
+                            <li className="menu-item">
+                              <Link
+                                to="./ent-surgery/"
+                                onClick={handleLinkClick}
+                              >
+                                ENT Surgery
+                              </Link>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                      <li className="menu-item menu-item-has-children">
+                        <Link to="./about-clinic/" onClick={handleLinkClick}>
+                          About
+                        </Link>
+                        <i
+                          className="fa fa-chevron-down pq-submenu-icon"
+                          onClick={() => toggleSubMenu("about")}
+                        ></i>
+                        {openSubMenu.about && (
+                          <ul className="sub-menu">
+                            <li>
+                              <Link
+                                to="./about-the-doctor/"
+                                onClick={handleLinkClick}
+                              >
+                                About The Doctor
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                to="./about-clinic/"
+                                onClick={handleLinkClick}
+                              >
+                                Why Choose MedFirst
+                              </Link>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                      <li className="menu-item">
+                        <Link to="./blogs/" onClick={handleLinkClick}>
+                          Blog
+                        </Link>
+                      </li>
+                      <li className="menu-item">
+                        <Link to="./videos/" onClick={handleLinkClick}>
+                          Videos
+                        </Link>
+                      </li>
+                      <li className="menu-item">
+                        <Link to="./contact-us/" onClick={handleLinkClick}>
+                          Contact Us
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+
+                <div className="pq-header-info-box">
+                  <div className="pq-menu-search-block">
+                    <button
+                      id="pq-search-btn"
+                      onClick={openSearchPopup}
+                      style={{ border: "none", background: "none", margin: "0px" }}
+                    >
+                      <i className="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                  <Link
+                    className="pq-button pq-button-flat"
+                    to="./book-an-appointment"
+                    onClick={handleLinkClick}
+                  >
+                    <div className="pq-button-block">
+                      <span className="pq-button-text">Book Appointment</span>
+                    </div>
+                  </Link>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMobile && <MobileMenu />}
+
+      {/* Search Popup */}
+      {isSearchPopupOpen && (
+        <div className="search-popup-overlay">
+          <div className="search-popup">
+            <button className="close-popup" onClick={closeSearchPopup}>
+              <i className="fas fa-times"></i>
+            </button>
+            <form
+              role="search"
+              method="get"
+              className="search-form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const searchQuery = e.target.elements.s.value;
+                window.location.href = `/search?q=${encodeURIComponent(
+                  searchQuery
+                )}`;
+              }}
+            >
+              <label>
+                <span className="screen-reader-text">Search for:</span>
+                <input
+                  type="search"
+                  className="search-field"
+                  placeholder="Search"
+                  name="s"
+                />
+              </label>
+              <button type="submit" className="search-submit">
+                <i className="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* CSS Styles */}
+      <style>
+        {`
+          /* Mobile Menu Styles */
+          .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 9998;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+          }
+          
+          .mobile-menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+          }
+          
+          .mobile-menu-container {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 85%;
+            max-width: 350px;
+            height: 100%;
+            background: #fff;
+            z-index: 9999;
+            transition: all 0.3s ease;
+            overflow-y: auto;
+            box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+          }
+          
+          .mobile-menu-overlay.active .mobile-menu-container {
+            right: 0;
+          }
+          
+          .mobile-menu-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #333;
+            cursor: pointer;
+          }
+          
+          .mobile-menu {
+            padding: 20px;
+            margin-top: 50px;
+            list-style: none;
+          }
+          
+          .mobile-menu li {
+            margin-bottom: 10px;
+            position: relative;
+          }
+          
+          .mobile-menu li a {
+            display: block;
+            padding: 10px 0;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+          }
+          
+          .has-submenu .submenu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            cursor: pointer;
+          }
+          
+          .has-submenu .submenu-header span,
+          .has-submenu .submenu-header a {
+            flex: 1;
+          }
+          
+          .has-submenu .fas.fa-chevron-down {
+            transition: transform 0.3s ease;
+          }
+          
+          .has-submenu .fas.fa-chevron-down.rotate {
+            transform: rotate(180deg);
+          }
+          
+          .submenu, .sub-submenu {
+            padding-left: 15px;
+            list-style: none;
+            display: block;
+          }
+          
+          .submenu.active, .sub-submenu.active {
+            display: block;
+          }
+          
+          .sub-submenu {
+            background-color: #f9f9f9;
+            border-left: 3px solid #0F995F;
+            margin: 5px 0;
+          }
+          
+          .mobile-menu-footer {
+            padding: 20px;
+            text-align: center;
+          }
+          
+          .mobile-appointment-btn {
+            display: block;
+            padding: 12px;
+            background-color: #0F995F;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+          }
+          
+          /* Desktop Menu Styles */
+          .navbar-nav .sub-menu {
+            position: absolute;
+            background: #fff;
+            min-width: 220px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+          }
+          
+          .navbar-nav .menu-item:hover .sub-menu {
+            opacity: 1;
+            visibility: visible;
+          }
+          
+          .navbar-nav .sub-sub-menu {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background: #fff;
+            min-width: 220px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+          }
+          
+          .navbar-nav .sub-menu .menu-item:hover .sub-sub-menu {
+            opacity: 1;
+            visibility: visible;
+          }
+          
+          /* Search Popup Styles */
+          .search-popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          }
+          
+          .search-popup {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+          }
+          
+          .close-popup {
+               position: absolute;
+    top: 0px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 19px;
+           
+            color: #333;
+            cursor: pointer;
+            transition: color 0.3s ease;
+          }
+          
+          .close-popup:hover {
+    color: #000;
+    top: 2px;
+    right: 6px;
+    font-size: 18px;
+}
+          
+          .search-form {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+          
+          .search-field {
+            flex: 1;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s ease;
+          }
+          
+          .search-field:focus {
+            border-color: #0F995F;
+          }
+          
+          .search-submit {
+            background-color: #0F995F;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+          }
+          
+          .search-submit:hover {
+            background-color: #0F995F;
+          }
+          
+          .search-submit i {
+            margin-right: 5px;
+          }
+          
+          @media (min-width: 769px) {
+            .mobile-menu-overlay {
+              display: none;
+            }
+          }
+
+        `}
+      </style>
+    </header>
+  );
+}
