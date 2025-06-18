@@ -25,6 +25,7 @@ export default function Index() {
             <meta name="description" content="Effective diagnosis and treatment of sensorineural hearing loss by MedFirst ENT Centre. Regain your hearing health today." />
             <meta name="keywords" content="sensorineural hearing loss Delhi, hearing loss treatment, Sensorineural hearing loss treatment,Sensorineural hearing loss causes,Mild sensorineural hearing loss treatment,Sensorineural hearing loss symptoms,Sensorineural hearing loss examples
 " />
+            <link rel="canonical" href="https://entdelhi.com/sensorineural-hearing-loss/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

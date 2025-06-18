@@ -24,6 +24,7 @@ export default function Index() {
             <title>ENT Endoscopy in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Get clear and accurate ENT diagnosis with nasal and throat endoscopy by MedFirst ENT Centre. Quick and safe procedures." />
             <meta name="keywords" content="ENT endoscopy Delhi, nasal endoscopy, throat endoscopy, Endoscopy cost,Is endoscopy painful,Endoscopy near me,Endoscopy procedure,Endoscopy test,Endoscopy price" />
+            <link rel="canonical" href="" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

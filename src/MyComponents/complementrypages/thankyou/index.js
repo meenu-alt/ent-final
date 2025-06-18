@@ -18,7 +18,8 @@ export default function Index() {
           <title>Best ENT Clinic In Delhi</title>
           <meta name="description" content="Visit the best ENT Clinic in Delhi offering expert treatments for ear, nose, and throat disorders." />
           <meta name="keywords" content="ENT Clinic Delhi, Best ENT Doctor, Ear Nose Throat Specialist" />
-          <meta property="og:title" content="Open Graph Title" />
+          <link rel="canonical" href="" />
+            <meta property="og:title" content="Open Graph Title" />
           <meta property="og:description" content="Open Graph Description for Facebook etc." />
           <meta name="robots" content="index, follow" />
         </Helmet>

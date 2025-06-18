@@ -28,7 +28,8 @@ export default function Index() {
              <meta name="description" content="Detailed vocal cord evaluation with microlaryngoscopy for voice issues and throat disorders. Book ENT appointment with MedFirst ENT Centre" />
              <meta name="keywords" content="Microlaryngoscopy procedure,Microlaryngoscopy surgery,Microlaryngoscopy recovery,Microlaryngoscopy cancer,Microlaryngoscopy side effects,Microlaryngoscopy and excision
 " />
-             <meta property="og:title" content="Open Graph Title" />
+             <link rel="canonical" href="https://entdelhi.com/microlaryngoscopy/" />
+            <meta property="og:title" content="Open Graph Title" />
              <meta property="og:description" content="Open Graph Description for Facebook etc." />
              <meta name="robots" content="index, follow" />
              {/* You can add more meta tags as needed */}

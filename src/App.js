@@ -87,7 +87,7 @@ function App() {
         <Route path="/contact-us/" element={<ContactUs />} />
         <Route path="/ent-surgery/" element={<EntSurgery />} />
         <Route path="/Vertigo-Clinic/" element={<VertigoClinic />} />
-        <Route path="/vertigo-treatment"  element={<VertigoTreatment />}  />
+        <Route path="/vertigo-treatment/"  element={<VertigoTreatment />}  />
         <Route path="/audiology/" element={<Audiology />} />
         <Route path="/deafness-management/" element={<DeafnessManagement />} />
         <Route path="/myringoplasty/" element={<Myringoplasty />} />

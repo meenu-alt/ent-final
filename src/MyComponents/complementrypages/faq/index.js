@@ -24,7 +24,8 @@ export default function Index() {
         <title> Frequently Asked ENT Questions | MedFirst ENT Centre</title>
         <meta name="description" content="Have questions about ENT problems? Find answers to common ear, nose, and throat concerns from our expert ENT specialists in Delhi." />
         <meta name="keywords" content="ENT FAQs, ENT common questions, ENT knowledge, ENT advice Delhi" />
-        <meta property="og:title" content="Open Graph Title" />
+        <link rel="canonical" href="https://entdelhi.com/ent-faq/" />
+            <meta property="og:title" content="Open Graph Title" />
         <meta property="og:description" content="Open Graph Description for Facebook etc." />
         <meta name="robots" content="index, follow" />
         {/* You can add more meta tags as needed */}

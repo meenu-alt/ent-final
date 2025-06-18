@@ -25,6 +25,7 @@ export default function Index() {
             <title>Nasal Polyp Removal Surgery in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Suffering from nasal polyps? Get expert consultation and safe surgical removal by ENT specialists in Delhi. Breathe easier with our effective treatments." />
             <meta name="keywords" content="nasal polyp removal, sinus surgery Delhi, Nasal polyps surgery cost in Delhi, nasal blockage treatment" />
+            <link rel="canonical" href="https://entdelhi.com/nasal-polyp-removal/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, followjdhfuiefp" />

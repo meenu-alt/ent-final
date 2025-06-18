@@ -26,6 +26,7 @@ export default function Index() {
             <title>Adenoid Surgery | MedFirst ENT Centre</title>
             <meta name="description" content="Suffering from breathing or nasal issues? Get safe and effective adenoid removal surgery from expert ENT surgeons Dr (Major) Rajesh Bhardwaj." />
             <meta name="keywords" content="adenoid surgery Delhi, adenoid removal, ENT adenoid treatment, breathing problem surgery,Adenoid removal in adults,Adenoid surgery cost,Adenoid surgery recovery,Adenoid surgery in kids,Pros and cons of removing adenoids,long-term effects of adenoid removal" />
+            <link rel="canonical" href="https://entdelhi.com/adenoid-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

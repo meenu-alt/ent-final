@@ -21,9 +21,10 @@ export default function Index() {
   return (
     <div>
           <Helmet>
-            <title>Best ENT Clinic In Delhi</title>
-            <meta name="description" content="" />
-            <meta name="keywords" content="" />
+            <title>Turbinectomy Surgery in Delhi | Enlarged Turbinate Treatment</title>
+            <meta name="description" content="Learn about turbinate reduction surgery (turbinectomy) in Delhi. ENT Delhi offers safe and effective treatment for nasal blockage and breathing issues caused by enlarged turbinates." />
+            <meta name="keywords" content="Turbinectomy in Delhi, turbinate reduction surgery, enlarged turbinate treatment, nasal blockage surgery, ENT Delhi turbinate, nose surgery Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/turbinectomy/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

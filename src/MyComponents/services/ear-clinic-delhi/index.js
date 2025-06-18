@@ -23,6 +23,7 @@ export default function Index() {
             <title> Ear Clinic in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Get complete ear care and hearing loss treatment from Delhi’s trusted ENT clinic. Visit us for personalized ear health solutions." />
             <meta name="keywords" content="ear clinic Delhi, hearing clinic, ear specialist Delhi, ENT ear treatment" />
+            <link rel="canonical" href="https://entdelhi.com/ear-clinic-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

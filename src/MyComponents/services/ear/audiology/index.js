@@ -25,7 +25,8 @@ export default function Index() {
       <title>Audiology Services in Delhi | Hearing Tests & Care</title>
       <meta name="description" content="Get expert audiology services at MedFirst ENT Centre, Delhi — including hearing tests, diagnosis, and hearing aid fittings by experienced audiologists and ENT specialists." />
       <meta name="keywords" content="audiology Delhi, hearing test Delhi, hearing care center, audiologist Delhi" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

@@ -25,6 +25,7 @@ export default function Index() {
             <title>Hearing Aids Consultation & Fitting | MedFirst ENT Centre</title>
             <meta name="description" content="Find the right hearing aid with expert consultation and fitting services in Delhi. Improve your hearing and enjoy better quality of life." />
             <meta name="keywords" content="Hearing aids new delhi,hearing aids,hearing aid price in delhi,Hearing aid price,Hearing aid types and costs,Hearing aid near me,Hearing aid types" />
+            <link rel="canonical" href="https://entdelhi.com/hearing-aids/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

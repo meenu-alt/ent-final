@@ -25,6 +25,7 @@ export default function Index() {
             <title>Hearing Loss Treatment in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Struggling with hearing problems? Get expert diagnosis and effective treatment for hearing loss at MedFirst ENT Centre – a trusted ENT clinic in Delhi." />
             <meta name="keywords" content="Hearing loss treatment Medicine,Mild hearing loss treatment,Latest treatment for hearing loss,Diseases that cause hearing loss,Permanent hearing loss treatment,4 types of hearing loss,Early signs of hearing loss in adults" />
+            <link rel="canonical" href="https://entdelhi.com/hearing-loss/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

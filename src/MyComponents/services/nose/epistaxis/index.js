@@ -25,7 +25,8 @@ export default function Index() {
       <title>Nosebleed (Epistaxis) Treatment in Delhi | MedFirst ENT Centre</title>
       <meta name="description" content="Frequent nosebleeds can be treated effectively. Get expert diagnosis and care for epistaxis by top ENT specialists in Delhi." />
       <meta name="keywords" content="ENT surgery Delhi, ear nose throat surgery, best ENT surgeon, ENT clinic Delhi" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="https://entdelhi.com/epistaxis/" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

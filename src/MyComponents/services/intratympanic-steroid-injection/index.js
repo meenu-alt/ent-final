@@ -23,6 +23,7 @@ export default function Index() {
             <title>Intratympanic Steroid Injection | MedFirst ENT Centre</title>
             <meta name="description" content="Treat sudden hearing loss or inner ear inflammation with safe intratympanic steroid injections from MedFirst ENT Centre." />
             <meta name="keywords" content="intratympanic injection Delhi, ear steroid treatment, sudden hearing loss cure, ENT ear therapy" />
+            <link rel="canonical" href="https://entdelhi.com/intratympanic-steroid-injection/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

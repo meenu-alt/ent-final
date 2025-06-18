@@ -24,6 +24,7 @@ export default function Index() {
             <title>Turbinoplasty Surgery in Delhi | Nasal Blockage Treatment</title>
             <meta name="description" content="Breathe freely with turbinoplasty surgery to treat nasal obstruction. Get expert care from MedFirst ENT Centre." />
             <meta name="keywords" content="turbinoplasty Delhi, nasal blockage treatment, ENT nasal surgery, nose congestion surgery,Turbinoplasty cost,Turbinoplasty surgery cost,Turbinoplasty and septoplasty,Turbinoplasty surgery,Turbinoplasty side effects,Turbinoplasty recovery" />
+            <link rel="canonical" href="https://entdelhi.com/turbinoplasty/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

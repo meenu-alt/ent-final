@@ -72,9 +72,9 @@ export default function TitleForm() {
               <div className="col-xl-7 px-xl-8 mt-4 mt-xl-0">
                 <div className="pq-section pq-style-1 text-left">
                   <span className="pq-section-sub-title">Medfirst ENT Centre</span>
-                  <h2 className="pq-section-title">
+                  <h1 className="pq-section-title">
                   Microlaryngeal Surgery
-                  </h2>
+                  </h1>
                   <p className="pq-section-description">
                   MedFirst ENT Centre is a specialist ENT clinic located in Vasant Vihar, New Delhi. At the helm is the city’s leading ENT surgeon Dr (Major) Rajesh Bhardwaj. The centre has a well equipped OT with trained, experienced, and caring staff.
 

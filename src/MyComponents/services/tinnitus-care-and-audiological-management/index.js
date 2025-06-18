@@ -24,6 +24,7 @@ export default function Index() {
             <title>Tinnitus Care & Audiological Management | MedFirst ENT Centre</title>
             <meta name="description" content="Struggling with tinnitus? Get specialized care and audiological support from leading ENT experts in Delhi for effective symptom management." />
             <meta name="keywords" content=" tinnitus treatment in Delhi, ringing in ear care, audiological management, ENT tinnitus specialist" />
+            <link rel="canonical" href="https://entdelhi.com/tinnitus-care-and-audiological-management/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

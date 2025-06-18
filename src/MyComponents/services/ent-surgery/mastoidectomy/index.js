@@ -25,6 +25,7 @@ export default function Index() {
             <title>Mastoidectomy Surgery | MedFirst ENT Centre</title>
             <meta name="description" content="Get expert surgical care for chronic ear infections with mastoidectomy by skilled ENT surgeons Dr (Major) Rajesh Bhardwaj. Safe and effective results" />
             <meta name="keywords" content="mastoidectomy Delhi, Best mastoid surgeon near me, Mastoid surgery in Delhi Ncr, Best Mastoid surgery in Delhi, ENT specialist for mastoid surgery" />
+            <link rel="canonical" href="https://entdelhi.com/mastoidectomy/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

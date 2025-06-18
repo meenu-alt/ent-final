@@ -7,12 +7,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // Desktop Banner Images
-import desktopBanner1 from "./images/ent-new-banner.jpg";
-import desktopBanner2 from "./images/ent-new-banner2.jpg";
+import desktopBanner1 from "../../../src/assets/images/banner/Surgery-ent.jpg";
+import desktopBanner2 from "../../../src/assets/images/banner/ent-care.png";
+import desktopBanner3 from "../../../src/assets/images/banner/hearing.jpg";
+import desktopBanner4 from "../../../src/assets/images/banner/allergydes.png";
+import desktopBanner5 from "../../../src/assets/images/banner/vertigo.jpg";
 
 // Mobile Banner Images
-import mobileBanner1 from "./images/ent-mob1.jpg";
-import mobileBanner2 from "./images/ent-mob2.jpg";
+import mobileBanner1 from "../../../src/assets/images/banner/Surgery-ent-mob.png";
+import mobileBanner2 from "../../../src/assets/images/banner/ent-care-mob.png";
+import mobileBanner3 from "../../../src/assets/images/banner/hearing-mobile.png";
+import mobileBanner4 from "../../../src/assets/images/banner/allergy-mob.png";
+import mobileBanner5 from "../../../src/assets/images/banner/vertigo-mob.png";
 
 const Banner = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -31,12 +37,18 @@ const Banner = () => {
 
   const banners = isMobile
     ? [
-        { src: mobileBanner1, alt: "Mobile Banner 1", link: "/book-an-appointment/" },
-        { src: mobileBanner2, alt: "Mobile Banner 2", link: "/book-an-appointment/" },
+        { src: mobileBanner1, alt: "Mobile Banner 1", link: "/ent-surgery/" },
+        { src: mobileBanner2, alt: "Mobile Banner 2", link: "/ent-doctor-delhi/" },
+        { src: mobileBanner3, alt: "Mobile Banner 3", link: "/hearing-aids/" },
+        { src: mobileBanner4, alt: "Mobile Banner 4", link: "/nose-surgery-cost-delhi/" },
+        { src: mobileBanner5, alt: "Mobile Banner 5", link: "/vertigo-treatment" },
       ]
     : [
-        { src: desktopBanner1, alt: "Desktop Banner 1", link: "/book-an-appointment/" },
-        { src: desktopBanner2, alt: "Desktop Banner 2", link: "/book-an-appointment/" }
+        { src: desktopBanner1, alt: "Desktop Banner 1", link: "/ent-surgery/" },
+        { src: desktopBanner2, alt: "Desktop Banner 2", link: "/ent-doctor-delhi/" },
+        { src: desktopBanner3, alt: "Desktop Banner 3", link: "/hearing-aids/" },
+        { src: desktopBanner4, alt: "Desktop Banner 4", link: "/nose-surgery-cost-delhi/" },
+        { src: desktopBanner5, alt: "Desktop Banner 5", link: "/vertigo-treatment" }
       ];
 
   return (

@@ -25,6 +25,7 @@ export default function Index() {
             <title>Snoring & Sleep Apnea Surgery in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Get relief from snoring and sleep apnea with advanced ENT surgery in Delhi. Personalized care, experienced ENT specialists, and effective treatment options." />
             <meta name="keywords" content="Snoring surgery cost,Snoring surgery recovery time,Snoring surgery cost in India, ENT surgery for snoring, Laser surgery for snoring,Snoring surgery near me,Best sleep apnea treatment in India,Obstructive sleep apnea treatment in india" />
+            <link rel="canonical" href="https://entdelhi.com/snoring-sleep-apnea-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

@@ -23,6 +23,7 @@ export default function Index() {
             <title>Doctor About Us | MedFirst ENT Centre</title>
             <meta name="description" content="Dr. (Major) Bhardwaj, an AFMC Pune graduate and experienced ENT specialist, served 15 years in the Indian Army, including key roles at top military hospitals and in high-risk zones like Siachen and Sri Lanka." />
             <meta name="keywords" content="ENT doctor Delhi, best ENT specialist, about ENT surgeon, experienced ENT in Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/about-the-doctor/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

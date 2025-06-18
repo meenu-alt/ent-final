@@ -2,12 +2,19 @@ import React from 'react';
 import { useEffect } from "react";
 import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
-import Throat from "./images/throat.png";
-import Adenoidectomy from "./images/Adenoidectomy.png";
-import Ear from "./images/ear.png";
-import Myringotomy from "./images/Myringotomy.png";
-import Nose from "./images/nose.png";
-import Neck from "./images/neck.png";
+
+import Myringotomy from "./images/icons/myringotomy.png";
+import MLS from "./images/icons/mls.png";
+import Tonsillectomy from "./images/icons/tonsillectomy.png";
+import Adenoidectomy from "./images/icons/adenoidectomy.png";
+import Snoring from "./images/icons/Snoring-Sleep-Apnea-Surgery.png";
+import Septoplasty from "./images/icons/septoplasty.png";
+import Turbinectomy from "./images/icons/turbinectomy.png";
+import FESS from "./images/icons/functional-endoscopic-sinus-surgery.png";
+import Swelling from "./images/icons/neck-swelling-surgery.png";
+import Nasal from "./images/icons/nasal-polyp-removal.png";
+import Myringoplasty from "./images/icons/myringoplasty.png";
+import Mastoidectomy from "./images/icons/mastoidectomy.png";
 
 export default function WhatWeDo() {
   return (
@@ -21,25 +28,18 @@ export default function WhatWeDo() {
                 className="pq-section-title"
                 style={{ color: "#4C906F", fontSize: "40px" }}
               >
-                ENT Consultation, Surgeries & Treatment
+              ENT Consultation, Vertigo, Allergies, ENT Surgeries, Hearing Aids
               </h2>
               <p className="pq-section-description">
-                MedFirst ENT Centre was established in 1997. Since then, it has
-                undergone regular improvements and upgrades to become a centre
-                of excellence for the diagnosis and management of ENT disorders
-                in the NCR. We get patients from all over India and overseas as
-                well.
-                <br />
-                We offer the latest technology and equipment and expertise in
-                the management of ENT diseases.
-              </p>
+  Comprehensive ENT examination including Endoscopies and Audiology, Dedicated Vertigo Clinic, Testing for allergies (Skin Prick Test) and Allergen Immunotherapy (AIT), All ENT Surgeries, World's latest Hearing Aids-  Trial and Dispensation.</p>
+
             </div>
           </div>
         </div>
         <style>
           {` 
             .pq-fancy-box-icon i img {
-    max-width: 20%;
+    max-width: 100%;
     transition: transform 0.3s ease; /* Add a smooth hover effect */
   }
 
@@ -72,7 +72,9 @@ export default function WhatWeDo() {
     .pq-fancy-box.pq-style-1 {
     padding: 12px 12px;
     transition: all 0.5s ease;
-     height: 84%;
+    height: auto;
+    display: flex
+;
 }
 .pq-fancy-box.pq-style-1 .pq-fancy-box-title {
     text-transform: capitalize;
@@ -81,12 +83,19 @@ export default function WhatWeDo() {
     font-weight: 600;
     font-size: 18px;
 }
+   .pq-fancy-box-info{
+      align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0 3px;
+   } 
 
 
           `}
         </style>
-        <div className="service" style={{ paddingTop: "20px" }}>
-          <div className="container">
+        <div className="service">
+          <div className="">
             <div className="row">
               <div className="col-md-6 col-6 col-lg-4 col-xl-3">
                 <Link to="./tonsillectomy">
@@ -94,7 +103,7 @@ export default function WhatWeDo() {
                     <div className="pq-fancy-box-icon">
                       <i>
                         <img
-                          src={Throat}
+                          src={Tonsillectomy}
                           className="img-fluid"
                           alt="Tonsillectomy"
                         />
@@ -125,7 +134,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Nose}></img>
+                        <img src={Snoring}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -156,7 +165,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Nose}></img>
+                        <img src={Septoplasty}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -170,7 +179,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Nose}></img>
+                        <img src={Turbinectomy}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -184,7 +193,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Nose}></img>
+                        <img src={FESS}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -198,7 +207,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Neck}></img>
+                        <img src={Swelling}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -214,7 +223,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Nose}></img>
+                        <img src={Nasal}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -229,7 +238,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Ear}></img>
+                        <img src={Myringoplasty}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -243,7 +252,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Ear}></img>
+                        <img src={Mastoidectomy}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">
@@ -257,7 +266,7 @@ export default function WhatWeDo() {
                   <div className="pq-fancy-box pq-style-1 text-center">
                     <div className="pq-fancy-box-icon">
                       <i>
-                        <img src={Throat}></img>
+                        <img src={MLS}></img>
                       </i>
                     </div>
                     <div className="pq-fancy-box-info">

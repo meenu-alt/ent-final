@@ -25,6 +25,7 @@ export default function Index() {
             <meta name="description" content="Treat voice disorders and vocal cord lesions with precision microlaryngeal surgery in Delhi. Performed by expert ENT specialists Dr (Major) Rajesh Bhardwaj." />
             <meta name="keywords" content="microlaryngeal surgery Delhi, vocal cord microsurgery, 
 Microlaryngeal surgery,Microlaryngeal surgery complications,Microlaryngeal surgery cost,Microlaryngeal surgery anesthesia, larynx surgery" />
+            <link rel="canonical" href="https://entdelhi.com/microlaryngeal-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

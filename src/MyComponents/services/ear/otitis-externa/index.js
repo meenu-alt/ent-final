@@ -25,6 +25,7 @@ export default function Index() {
             <title>Otitis Externa (Swimmer’s Ear) Treatment | MedFirst ENT Centre</title>
             <meta name="description" content="Get effective treatment for otitis externa and ear infections by MedFirst ENT Centre. Safe care for ear health restoration." />
             <meta name="keywords" content="otitis externa treatment, ear infection , swimmer’s ear care, Acute otitis externa treatment,Chronic otitis externa treatment,Otomize ear spray" />
+            <link rel="canonical" href="https://entdelhi.com/otitis-externa/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

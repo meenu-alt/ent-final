@@ -18,7 +18,8 @@ function Home() {
       <title>Best ENT Clinic In Delhi</title>
       <meta name="description" content="" />
       <meta name="keywords" content="" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

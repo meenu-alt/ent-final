@@ -26,6 +26,7 @@ export default function Index() {
             <title>Palatal Injections for Snoring | MedFirst ENT Centre</title>
             <meta name="description" content="Reduce snoring with safe and effective palatal injection therapy by MedFirst ENT Centre. Quick procedure, long-term relief." />
             <meta name="keywords" content="snoring injection Delhi, palatal injection ENT, snoring solution, non-surgical snoring treatment" />
+            <link rel="canonical" href="https://entdelhi.com/palatal-injection-for-snoring/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

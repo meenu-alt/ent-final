@@ -26,6 +26,7 @@ export default function Index() {
             <title>Tonsil Infection & Inflammation Treatment | MedFirst ENT Centre</title>
             <meta name="description" content="Sore throat or swollen tonsils? Get relief with expert ENT care for tonsillitis and chronic tonsil infections in Delhi." />
             <meta name="keywords" content="tonsil treatment Delhi, tonsillitis care, swollen tonsils doctor,Tonsils symptoms,Best doctor for tonsils near me,Otolaryngologist,Tonsil Removal Surgery,Chronic Tonsillitis" />
+            <link rel="canonical" href="https://entdelhi.com/tonsils/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

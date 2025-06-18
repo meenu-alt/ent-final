@@ -25,6 +25,7 @@ export default function Index() {
             <title>Myringoplasty Surgery in Delhi | Eardrum Repair Treatment</title>
             <meta name="description" content="Repair damaged eardrums with safe myringoplasty surgery. Get treated by leading ENT surgeons in Delhi for better hearing." />
             <meta name="keywords" content="myringoplasty Delhi, eardrum surgery, ENT hearing repair, ear drum perforation treatment" />
+            <link rel="canonical" href="https://entdelhi.com/myringoplasty/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

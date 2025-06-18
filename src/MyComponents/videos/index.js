@@ -17,6 +17,7 @@ export default function Index() {
             <title>ENT Health Videos | Patient Education Resources | MedFirst ENT Centre</title>
             <meta name="description" content="Watch informative videos on ENT treatments, surgeries, and patient care. Learn more about ear, nose, and throat health from experts." />
             <meta name="keywords" content="ENT videos, patient education ENT, ENT treatments videos, ENT Delhi videos" />
+            <link rel="canonical" href="https://entdelhi.com/videos/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

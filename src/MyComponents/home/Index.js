@@ -24,7 +24,8 @@ function Home() {
       <title>Best ENT Doctor in Delhi – Dr. Rajesh Bhardwaj | MedFirst ENT Centre</title>
       <meta name="description" content="Consult Dr. (Major) Rajesh Bhardwaj at MedFirst ENT Centre, Vasant Vihar – a trusted ENT specialist in Delhi offering expert care, surgeries & ethical treatment." />
       <meta name="keywords" content="" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="https://entdelhi.com/" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

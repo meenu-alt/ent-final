@@ -26,6 +26,7 @@ export default function Index() {
             <title>Vertigo Treatment Clinic  | MedFirst ENT Centre</title>
             <meta name="description" content="Feeling dizzy or off balance? Visit our specialized vertigo clinic in Delhi for accurate diagnosis and personalized MedFirst ENT Centre." />
             <meta name="keywords" content="vertigo treatment Delhi, dizziness doctor, balance disorder ENT, vertigo clinic NCR" />
+            <link rel="canonical" href="" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

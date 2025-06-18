@@ -20,9 +20,10 @@ export default function Index() {
   return (
     <div>
           <Helmet>
-            <title>Best ENT Clinic In Delhi</title>
-            <meta name="description" content="" />
-            <meta name="keywords" content="" />
+            <title>Nose Surgery Cost in Delhi |Medfirst ENT Centre</title>
+            <meta name="description" content="Wondering about nose surgery cost in Delhi? Get expert ENT consultation and affordable rhinoplasty at ENT Delhi. Transparent pricing and advanced treatment options." />
+            <meta name="keywords" content="nose surgery cost in Delhi, rhinoplasty Delhi, ENT surgeon Delhi, affordable nose surgery, nasal surgery cost, ENT Delhi clinic" />
+            <link rel="canonical" href="https://entdelhi.com/nose-surgery-cost-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

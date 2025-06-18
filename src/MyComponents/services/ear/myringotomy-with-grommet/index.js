@@ -25,6 +25,7 @@ export default function Index() {
             <title>Myringotomy with Grommet  | MedFirst ENT Centre</title>
             <meta name="description" content="Treat chronic ear infections and fluid buildup with myringotomy and grommet insertion by MedFirst ENT Centre." />
             <meta name="keywords" content="Myringotomy with grommet insertion complications,Myringotomy and grommet insertion procedure,Myringotomy with grommet insertion indications,Myringotomy with grommet insertion cost" />
+            <link rel="canonical" href="https://entdelhi.com/myringotomy-with-grommet/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

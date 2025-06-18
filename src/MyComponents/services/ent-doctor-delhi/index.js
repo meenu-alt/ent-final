@@ -23,6 +23,7 @@ export default function Index() {
             <title>Best ENT Doctor in Delhi | Ear, Nose & Throat Specialist</title>
             <meta name="description" content="Consult with Dr (Major) Rajesh Bhardwaj experienced ENT doctors in Delhi for comprehensive treatment of ear, nose, and throat problems. Book an appointment now." />
             <meta name="keywords" content="ENT doctor near me,Top ENT Specialist in Delhi,ENT doctor near me with Fees,Top 10 ENT specialist in Delhi,ENT doctor Delhi near me,Top 5 ENT doctors in Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/ent-doctor-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

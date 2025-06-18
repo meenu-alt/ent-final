@@ -25,7 +25,8 @@ export default function Index() {
       <title>Speech Therapy |  MedFirst ENT Centre</title>
       <meta name="description" content="Improve speech clarity and communication with professional speech therapy services offered by MedFirst ENT Centre." />
       <meta name="keywords" content="speech therapy Delhi, speech specialist, communication disorder therapy, Speech therapy cost,Speech therapy techniques,Speech therapy for kids,Speech therapy near me,Speech therapy for adults,Speech Therapist Near Me with fees,Speech Therapy cost in Delhi" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="https://entdelhi.com/speech-therapy/" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

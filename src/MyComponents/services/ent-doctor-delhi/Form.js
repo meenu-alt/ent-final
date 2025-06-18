@@ -77,9 +77,9 @@ export default function TitleForm() {
                 <span className="pq-section-sub-title">
                   Medfirst ENT Centre
                 </span>
-                <h2 className="pq-section-title">
+                <h1 className="pq-section-title">
                   Best ENT Doctor in New Delhi
-                </h2>
+                </h1>
                 <p className="pq-section-description">
                   Dr Bhardwaj completed his MBBS in 1982 from Armed Forces
                   Medical College, Pune (consistently placed as amongst the top

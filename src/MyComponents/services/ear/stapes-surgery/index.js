@@ -26,6 +26,7 @@ export default function Index() {
             <title>Stapes Surgery (Stapedectomy) | MedFirst ENT Centre</title>
             <meta name="description" content="Restore your hearing with safe and effective stapes surgery performed by leading MedFirst ENT Centre. Personalized care for better outcomes." />
             <meta name="keywords" content="stapes surgery Delhi, Stapedectomy procedure steps,Stapedectomy surgery cost,Stapes surgery set" />
+            <link rel="canonical" href="https://entdelhi.com/stapes-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

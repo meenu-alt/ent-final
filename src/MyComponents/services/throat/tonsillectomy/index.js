@@ -27,6 +27,7 @@ export default function Index() {
             <meta name="description" content="Get permanent relief from chronic tonsillitis and throat infections with tonsillectomy performed by Dr (Major) Rajesh Bhardwaj." />
             <meta name="keywords" content="tonsillectomy Delhi, tonsil surgery, ENT tonsil removal, throat infection treatment,Tonsillectomy surgery cost in Delhi, Painless tonsil surgery Delhi, Tonsillectomy Surgery in Delhi,Best tonsillectomy surgeon in Delhi
 " />
+            <link rel="canonical" href="https://entdelhi.com/tonsillectomy/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

@@ -26,6 +26,7 @@ export default function Index() {
             <title>MLS Surgery in Delhi | Microlaryngeal Voice Surgery</title>
             <meta name="description" content="Voice hoarseness or vocal cord nodules? Get microlaryngeal surgery (MLS) from Delhi’s top ENT surgeons Dr (Major) Rajesh ." />
             <meta name="keywords" content=" microlaryngeal surgery Delhi, MLS vocal cord surgery, voice problem ENT, ENT microlarynx surgery" />
+            <link rel="canonical" href="https://entdelhi.com/microlaryngeal-surgery-mls/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

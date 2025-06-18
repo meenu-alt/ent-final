@@ -23,6 +23,7 @@ export default function Index() {
             <title>Pediatric ENT Specialist in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Expert ENT care for children including ear infections, adenoids, and speech issues. Book with Delhi’s trusted pediatric ENT  Dr (Major) Rajesh Bhardwaj." />
             <meta name="keywords" content=" pediatric ENT Delhi, child ENT doctor, kids ear nose throat, pediatric ENT care,Best Pediatric Otorhinolaryngologists In Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/pediatric-ent-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

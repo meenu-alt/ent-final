@@ -25,6 +25,7 @@ export default function Index() {
             <title>Neck Swelling Surgery | MedFirst ENT Centre</title>
             <meta name="description" content="Remove neck lumps or swelling with expert surgical care at MedFirst ENT Centre. Consult experienced ENT surgeons in Delhi for proper evaluation and treatment." />
             <meta name="keywords" content="neck swelling surgery Delhi, neck lump removal, ENT head neck surgery, neck mass treatment,Neck lump surgery cost,Neck lump treatment,Neck lump removal surgery recovery time,Lateral neck swelling differential diagnosis,Neck lump treatment,Lump on right side of neck no pain,Unilateral neck swelling differential diagnosis,Neck mass differential diagnosis" />
+            <link rel="canonical" href="https://entdelhi.com/neck-swelling-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

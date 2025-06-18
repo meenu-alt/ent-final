@@ -26,6 +26,7 @@ export default function Index() {
             <title>Laryngoscopy Procedure in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Laryngoscopy helps diagnose voice and throat problems accurately. Get expert laryngoscopy services byMedFirst ENT Centre in Delhi." />
             <meta name="keywords" content="laryngoscopy Delhi,Best Doctors for Laryngoscopy in Delhi, throat examination, voice problem diagnosis, ENT throat specialist" />
+            <link rel="canonical" href="" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

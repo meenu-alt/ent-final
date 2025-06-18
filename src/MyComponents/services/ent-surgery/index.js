@@ -25,6 +25,7 @@ export default function Index() {
             <title>ENT Surgery  | MedFirst ENT Centre</title>
             <meta name="description" content="Trust our expert ENT surgeons for safe and advanced ear, nose, and throat surgeries in Delhi. Personalized care for lasting relief." />
             <meta name="keywords" content="Cashless ENT surgery Delhi,ENT Surgery Delhi TPA,Affordable ENT Surgery Delhi,ENT surgery in Delhi,Affordable ENT surgery Delhi,Laser ENT surgery for painless treatment,ENT surgery TPA,Cashless ENT surgery,Painless ENT surgery in delhi,Cashless ENT surgery hospitals,Laser ENT Surgery in Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/ent-surgery/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

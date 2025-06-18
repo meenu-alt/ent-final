@@ -26,6 +26,7 @@ export default function Index() {
             <title>Adenoid Surgery with Grommet Tube Insertion</title>
             <meta name="description" content="Dual treatment for chronic ear and nasal blockage. Get adenoid removal and grommet insertion surgery in Delhi by Dr (Major) Rajesh Bhardwaj." />
             <meta name="keywords" content="adenoid surgery with tube, grommet insertion Delhi, ENT ear nose surgery, ENT combo treatment,Adenoids and grommets recovery,Adenoids and grommets symptoms,Adenoidectomy" />
+            <link rel="canonical" href="https://entdelhi.com/adenoid-surgery-with-tube-insertion/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

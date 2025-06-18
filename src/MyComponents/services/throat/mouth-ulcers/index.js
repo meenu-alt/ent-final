@@ -26,6 +26,7 @@ export default function Index() {
             <title>Mouth Ulcers Treatment in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Suffering from painful mouth ulcers? Get accurate diagnosis and effective treatment by MedFirst ENT Centre in Delhi." />
             <meta name="keywords" content="Best mouth ulcer Doctor in Delhi,Best mouth ulcer doctor near me,Mouth Specialist Doctor in Delhi,Mouth ulcer doctor specialist,Mouth ulcer doctor near me,Best Hospital for Mouth ulcer treatment,Mouth specialist near me,Mouth Specialist doctor near me" />
+            <link rel="canonical" href="https://entdelhi.com/mouth-ulcers/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

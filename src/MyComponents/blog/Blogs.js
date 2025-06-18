@@ -109,6 +109,7 @@ const AllBlogs = () => {
             </style>
 
             <div className="allblog container">
+                <h1 className="text-center">Blogs</h1>
                 {loading && <p>Loading...</p>}
                 {error && <p>Error: {error}</p>}
                 <div className="blog-grid">

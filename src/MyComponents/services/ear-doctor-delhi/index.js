@@ -23,6 +23,7 @@ export default function Index() {
             <title>Experienced Ear Doctor in Delhi | Hearing & Ear Problem Care</title>
             <meta name="description" content="Meet the best ear doctors in Delhi for treatment of infections, hearing loss, and other ear conditions. Safe and expert ENT care." />
             <meta name="keywords" content="ear doctor Delhi, ENT ear specialist, hearing loss doctor, ear infection treatment" />
+            <link rel="canonical" href="https://entdelhi.com/ear-doctor-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

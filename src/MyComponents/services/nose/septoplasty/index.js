@@ -26,6 +26,7 @@ export default function Index() {
             <title>Septoplasty Surgery | MedFirst ENT Centre</title>
             <meta name="description" content="Breathe better with septoplasty surgery for deviated septum correction. Book your ENT consultation in Delhi with expert surgeons at MedFirst ENT Centre." />
             <meta name="keywords" content="septoplasty Delhi, deviated septum surgery, nasal obstruction ENT, nose surgery Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/septoplasty/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

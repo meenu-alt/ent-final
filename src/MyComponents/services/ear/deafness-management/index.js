@@ -26,6 +26,7 @@ export default function Index() {
             <meta name="description" content="Get personalized deafness management plans and hearing care from experienced ENT and audiology specialists in Delhi." />
             <meta name="keywords" content="deafness care Delhi, hearing loss solution, ENT deafness treatment, audiology Delhi,
 Top Deafness ENT Specialist in Delhi,Best Doctors For Hearing Loss Remedies Treatmen" />
+            <link rel="canonical" href="https://entdelhi.com/deafness-management/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

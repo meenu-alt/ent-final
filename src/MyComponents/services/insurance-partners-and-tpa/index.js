@@ -24,6 +24,7 @@ export default function Index() {
             <title>Insurance and TPA Services | MedFirst ENT Centre</title>
             <meta name="description" content="We partner with major insurance and TPA providers to ensure your ENT treatments in Delhi are smooth and worry-free. Learn more." />
             <meta name="keywords" content="ENT insurance Delhi, TPA partners ENT, cashless ENT treatment, ENT hospital insurance Delhi" />
+            <link rel="canonical" href="https://entdelhi.com/insurance-partners-and-tpa/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

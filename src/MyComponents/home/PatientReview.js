@@ -67,68 +67,69 @@ const PatientReviews = () => {
 
             {/* Custom Styles */}
             <style>
-              {`
-                .swiper-button-prev,
-                .swiper-button-next {
-                  position: absolute;
-                  top: 50%;
-                  transform: translateY(-50%);
-                  width: 35px;
-                  height: 35px;
-                  background: rgba(0, 0, 0, 0.7);
-                  color: white;
-                  border-radius: 50%;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  font-size: 20px;
-                  z-index: 10;
-                  cursor: pointer;
-                }
+  {`
+    .swiper-button-prev,
+    .swiper-button-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35px;
+      height: 35px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      z-index: 10;
+      cursor: pointer;
+    }
 
-                .swiper-button-prev { left: -40px; }
-                .swiper-button-next { right: -40px; }
+    .swiper-button-prev { left: -40px; }
+    .swiper-button-next { right: -40px; }
 
-                .pq-video-frame {
-                  width: 100%;
-                  height: 300px;
-                  border: none;
-                  border-radius: 10px;
-                }
+    .pq-video-frame {
+      width: 100%;
+      height: 500px; /* Increased height */
+      border: none;
+      border-radius: 10px;
+    }
 
-                @media (max-width: 1024px) {
-                  .pq-video-frame {
-                    height: 250px;
-                  }
-                }
+    @media (max-width: 1024px) {
+      .pq-video-frame {
+        height: 480px; /* Increased height */
+      }
+    }
 
-                @media (max-width: 768px) {
-                  .pq-video-frame {
-                    height: 220px;
-                  }
-                  .swiper-button-prev, .swiper-button-next {
-                    width: 30px;
-                    height: 30px;
-                    font-size: 16px;
-                  }
-                  .swiper-button-prev { left: -20px; }
-                  .swiper-button-next { right: -20px; }
-                }
+    @media (max-width: 768px) {
+      .pq-video-frame {
+        height: 370px; /* Increased height */
+      }
+      .swiper-button-prev, .swiper-button-next {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+      }
+      .swiper-button-prev { left: -20px; }
+      .swiper-button-next { right: -20px; }
+    }
 
-                @media (max-width: 480px) {
-                  .pq-video-frame {
-                    height: 200px;
-                  }
-                  .swiper-button-prev, .swiper-button-next {
-                    width: 25px;
-                    height: 25px;
-                    font-size: 14px;
-                  }
-                  .swiper-button-prev { left: -15px; }
-                  .swiper-button-next { right: -15px; }
-                }
-              `}
-            </style>
+    @media (max-width: 480px) {
+      .pq-video-frame {
+        height: 300px; /* Increased height */
+      }
+      .swiper-button-prev, .swiper-button-next {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+      }
+      .swiper-button-prev { left: -15px; }
+      .swiper-button-next { right: -15px; }
+    }
+  `}
+</style>
+
           </div>
         </div>
       </div>

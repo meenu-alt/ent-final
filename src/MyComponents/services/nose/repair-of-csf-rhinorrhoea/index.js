@@ -26,6 +26,7 @@ export default function Index() {
             <title>CSF Rhinorrhea Treatment | MedFirst ENT Centre</title>
             <meta name="description" content="Treat CSF rhinorrhoea effectively with advanced surgical care by MedFirst ENT Centre. Safe treatment with precision and care." />
             <meta name="keywords" content="CSF rhinorrhea treatment, rhinorrhoea surgery, CSF rhinorrhoea radiology,CSF rhinorrhea causes,CSF rhinorrhoea diagnosis" />
+            <link rel="canonical" href="https://entdelhi.com/repair-of-csf-rhinorrhoea/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />

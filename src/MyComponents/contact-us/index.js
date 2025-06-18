@@ -18,7 +18,8 @@ function Home() {
       <title>Contact US | Book Your Consultation Today</title>
       <meta name="description" content="Need expert ENT care? Contact us to book an appointment with leading ENT specialists in Delhi. We’re here to help you feel better." />
       <meta name="keywords" content="contact ENT clinic, book ENT appointment, ENT specialist Delhi, ENT consultation Delhi" />
-      <meta property="og:title" content="Open Graph Title" />
+      <link rel="canonical" href="https://entdelhi.com/contact-us/" />
+            <meta property="og:title" content="Open Graph Title" />
       <meta property="og:description" content="Open Graph Description for Facebook etc." />
       <meta name="robots" content="index, follow" />
       {/* You can add more meta tags as needed */}

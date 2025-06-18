@@ -23,6 +23,7 @@ export default function Index() {
             <title>Best Throat Doctor in Delhi | MedFirst ENT Centre</title>
             <meta name="description" content="Visit top throat specialists in Delhi for sore throat, voice problems, infections, and more. Expert ENT care for all ages." />
             <meta name="keywords" content="throat doctor Delhi, throat specialist, ENT throat expert, sore throat treatment,Best throat surgery specialist in Delh" />
+            <link rel="canonical" href="https://entdelhi.com/throat-doctor-delhi/" />
             <meta property="og:title" content="Open Graph Title" />
             <meta property="og:description" content="Open Graph Description for Facebook etc." />
             <meta name="robots" content="index, follow" />
